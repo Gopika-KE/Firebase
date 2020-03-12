@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,12 @@
 		9A62FA4B24176E0C00B38697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62FA4924176E0C00B38697 /* Main.storyboard */; };
 		9A62FA4D24176E0E00B38697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A62FA4C24176E0E00B38697 /* Assets.xcassets */; };
 		9A62FA5024176E0E00B38697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62FA4E24176E0E00B38697 /* LaunchScreen.storyboard */; };
+		9A62FA5E2417B89C00B38697 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A62FA5D2417B89C00B38697 /* GoogleService-Info.plist */; };
+		B139138E0009A39B1BFA64BA /* Pods_GloginWithFbase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E296196E80C86EA34DB4768 /* Pods_GloginWithFbase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E296196E80C86EA34DB4768 /* Pods_GloginWithFbase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GloginWithFbase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A62FA4224176E0C00B38697 /* GloginWithFbase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GloginWithFbase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A62FA4524176E0C00B38697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A62FA4724176E0C00B38697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		9A62FA4C24176E0E00B38697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A62FA4F24176E0E00B38697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A62FA5124176E0E00B38697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A62FA5D2417B89C00B38697 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDC781686A7A811104D8EA97 /* Pods-GloginWithFbase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloginWithFbase.debug.xcconfig"; path = "Target Support Files/Pods-GloginWithFbase/Pods-GloginWithFbase.debug.xcconfig"; sourceTree = "<group>"; };
+		F47EE3FD915B9217DCE80DB1 /* Pods-GloginWithFbase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloginWithFbase.release.xcconfig"; path = "Target Support Files/Pods-GloginWithFbase/Pods-GloginWithFbase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B139138E0009A39B1BFA64BA /* Pods_GloginWithFbase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7168E363B41CF2019020A414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E296196E80C86EA34DB4768 /* Pods_GloginWithFbase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A62FA3924176E0C00B38697 = {
 			isa = PBXGroup;
 			children = (
 				9A62FA4424176E0C00B38697 /* GloginWithFbase */,
 				9A62FA4324176E0C00B38697 /* Products */,
+				B7BFBD0A22D7A7A15937AC1F /* Pods */,
+				7168E363B41CF2019020A414 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				9A62FA4524176E0C00B38697 /* AppDelegate.swift */,
+				9A62FA5D2417B89C00B38697 /* GoogleService-Info.plist */,
 				9A62FA4724176E0C00B38697 /* ViewController.swift */,
 				9A62FA4924176E0C00B38697 /* Main.storyboard */,
 				9A62FA4C24176E0E00B38697 /* Assets.xcassets */,
@@ -64,6 +82,15 @@
 			path = GloginWithFbase;
 			sourceTree = "<group>";
 		};
+		B7BFBD0A22D7A7A15937AC1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDC781686A7A811104D8EA97 /* Pods-GloginWithFbase.debug.xcconfig */,
+				F47EE3FD915B9217DCE80DB1 /* Pods-GloginWithFbase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A62FA5424176E0E00B38697 /* Build configuration list for PBXNativeTarget "GloginWithFbase" */;
 			buildPhases = (
+				4E9C861E61AD8262D94542DE /* [CP] Check Pods Manifest.lock */,
 				9A62FA3E24176E0C00B38697 /* Sources */,
 				9A62FA3F24176E0C00B38697 /* Frameworks */,
 				9A62FA4024176E0C00B38697 /* Resources */,
+				E463685FCFD01F732A080C86 /* [CP] Embed Pods Frameworks */,
+				BC7946A99699A0647B5B38A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,12 +153,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A62FA5024176E0E00B38697 /* LaunchScreen.storyboard in Resources */,
+				9A62FA5E2417B89C00B38697 /* GoogleService-Info.plist in Resources */,
 				9A62FA4D24176E0E00B38697 /* Assets.xcassets in Resources */,
 				9A62FA4B24176E0C00B38697 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E9C861E61AD8262D94542DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GloginWithFbase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC7946A99699A0647B5B38A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GloginWithFbase/Pods-GloginWithFbase-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GloginWithFbase/Pods-GloginWithFbase-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GloginWithFbase/Pods-GloginWithFbase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E463685FCFD01F732A080C86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GloginWithFbase/Pods-GloginWithFbase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GloginWithFbase/Pods-GloginWithFbase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GloginWithFbase/Pods-GloginWithFbase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A62FA3E24176E0C00B38697 /* Sources */ = {
@@ -280,6 +370,7 @@
 		};
 		9A62FA5524176E0E00B38697 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC781686A7A811104D8EA97 /* Pods-GloginWithFbase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +389,7 @@
 		};
 		9A62FA5624176E0E00B38697 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47EE3FD915B9217DCE80DB1 /* Pods-GloginWithFbase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_GloginWithFbase {
+  umbrella header "Pods-GloginWithFbase-umbrella.h"
+
+  export *
+  module * { export * }
+}
