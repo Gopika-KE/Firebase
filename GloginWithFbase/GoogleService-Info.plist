@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>422241423580-1klipajgn2f32ughg5b6riv1sk950m8a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.422241423580-1klipajgn2f32ughg5b6riv1sk950m8a</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCOWdXb5Ij0No8Hpd-QTq5Xgt4hhDN2XZg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>422241423580</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.seeroo.GloginWithFbase</string>
+	<key>PROJECT_ID</key>
+	<string>august-balancer-270707</string>
+	<key>STORAGE_BUCKET</key>
+	<string>august-balancer-270707.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:422241423580:ios:dea574d4cb79e0eb4ce419</string>
+	<key>DATABASE_URL</key>
+	<string>https://august-balancer-270707.firebaseio.com</string>
+</dict>
+</plist>
